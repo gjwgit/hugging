@@ -3,11 +3,11 @@ meta:
   name         : hugging
   title        : implement various hugging face pipelines and models through MLHUB
   keywords     : python, summarization, transformers, t5, BERT, sentiment-analysis
-  version      : 0.0.10
+  version      : 0.1.0
   languages    : py
   license      : gpl3
-  author       : Shashank Gummuluru
-  url          : https://github.com/shashank-gv/hugging
+  author       : Shashank Gummuluru, Graham Williams
+  url          : https://github.com/gjwgit/hugging
 dependencies:
   pip3:
     - torch
@@ -15,14 +15,14 @@ dependencies:
     - trafilatura
   files:
     - README.md
-    - summarize.py
-    - utils.py
-    - sentiment.py
     - demo.py
+    - utils.py
+    - summarize.py
+    - sentiment.py
     - summarise.py
     - sentiment.txt
     - microsoft.txt
 commands:
-  summarize : Summarizes (or summarises) a given piece of text
+  summarize : Summarizes a given piece of text
   sentiment : Provides the sentiment ((pos | neg), score) of a given piece of text
   demo : Provides a demo of the commands implemented so far
