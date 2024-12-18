@@ -20,6 +20,8 @@ dependencies:
     - sentiment.py
     - demo.py
     - summarise.py
+    - sentiment.txt
+    - microsoft.txt
 commands:
   summarize : Summarizes (or summarises) a given piece of text
   sentiment : Provides the sentiment ((pos | neg), score) of a given piece of text
