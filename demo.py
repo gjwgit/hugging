@@ -7,9 +7,9 @@ parser = ap.ArgumentParser(description=utils.descriptions["demo"])
 parser.add_argument("command", type=str)
 args = parser.parse_args()
 
-if(args.command not in utils.commands):
-    print(f"invalid command entered valid commands are {utils.commands}")
-    exit(1)
+# if(args.command not in utils.commands):
+#     print(f"invalid command entered valid commands are {utils.commands}")
+#     exit(1)
 
 # if(args.command == "sentiment"):
 
