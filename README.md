@@ -1,18 +1,18 @@
 # [MLHub](https://mlhub.ai) Hugging
 
 This package provides easy to use capabilities from the extensive
-[Hugging Face](https://huggingface.co/) repository through the command
+[Hugging Face](w) repository through the command
 line. The implementation began as a student project by Shashank
 Gummuluru under the supervision of Graham Williams, available from
-https://github.com/shashank-gv/hugging. This official mlhub version
-has built on that project to add further features from Hugging
-Face. The features are document in
+https://github.com/shashank-gv/hugging and now maintained as
+https://github.com/gjwgit/hugging. This official mlhub version has
+built on that project to add further features from Hugging Face. The
+features are documented in
 https://survivor.togaware.com/mlhub/hugging.html
 
 ## Installation
 
 To install, configure, and demonstrate the package:
-
 
 ```bash
 ml install   gjwgit/hugging
