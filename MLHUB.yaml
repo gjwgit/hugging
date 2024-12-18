@@ -14,12 +14,10 @@ dependencies:
     - transformers
     - trafilatura
   files:
-    - microsoft_text.txt
-    - summarize.py
     - README.md
-    - utils.py  
+    - summarize.py
+    - utils.py
     - sentiment.py
-    - sent_text.txt
     - demo.py
     - summarise.py
 commands:
