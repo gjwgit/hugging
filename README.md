@@ -2,7 +2,12 @@
 
 This package provides easy to use capabilities from the extensive
 [Hugging Face](https://huggingface.co/) repository through the command
-line.
+line. The implementation began as a student project by Shashank
+Gummuluru under the supervision of Graham Williams, available from
+https://github.com/shashank-gv/hugging. This official mlhub version
+has built on that project to add further features from Hugging
+Face. The features are document in
+https://survivor.togaware.com/mlhub/hugging.html
 
 ## Installation
 
